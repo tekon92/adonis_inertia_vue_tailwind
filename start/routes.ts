@@ -21,5 +21,13 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async ({ inertia }) => {
-  return inertia.render('test')
+  return inertia.render('index')
 })
+
+
+Route.get('/about', async ({ inertia }) => {
+  return inertia.render('About')  
+})
+
+
+Route.resource('users', 'UserController')

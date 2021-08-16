@@ -1,6 +1,6 @@
 import { createApp, h } from 'vue'
 import { App, plugin } from '@inertiajs/inertia-vue3'
-// import '../css/app.css'
+import '../css/app.css'
 
 const el = document.getElementById('app')
 
